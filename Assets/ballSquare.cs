@@ -22,11 +22,12 @@ public class ballSquare : MonoBehaviour
 
         if (ctn == 0)
         {
+            Thread.Sleep(2000);
             transform.Translate(0, 0, 0);
             Thread.Sleep(2000);
-            transform.Translate(0, 8, 0);
-            //Thread.Sleep(2000);           //Sets The Speed The Ball Travels at
-            //transform.Rotate(0, 0, 90);
+            transform.Translate(0, 5, 0);
+            Thread.Sleep(2000);           //Sets The Speed The Ball Travels at
+            transform.Rotate(0, 0, 90);
             //Thread.Sleep(2000);
             //transform.Translate(0, 1, 0);
 
